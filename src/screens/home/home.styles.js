@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
+  @media(min-width: 1024px) {
+    align-items: center;
+  }
 `;
 
 export const Header = styled.header`
@@ -26,6 +29,11 @@ export const Footer = styled.footer`
   justify-content: space-between;
   align-items: center;
   box-shadow: 2px 0px 2px rgba(0, 0, 0, .5);
+
+  @media(min-width: 1024px) {
+    justify-content: space-around;
+  }
+  
 `
 Footer.Button = styled.button`
   border: none;
