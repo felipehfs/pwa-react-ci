@@ -24,7 +24,7 @@ export const Footer = styled.footer`
   left: 0;
   width: 100%;
   background-color: #fff;
-  padding: .5rem 1.2rem;
+  padding: .5rem 1.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ export const Footer = styled.footer`
   @media(min-width: 1024px) {
     justify-content: space-around;
   }
-  
+
 `
 Footer.Button = styled.button`
   border: none;
@@ -53,6 +53,15 @@ Footer.Actions = styled.div`
   font-size: 1.3rem;
 
   & > span {
-    margin-right: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  & > span:active {
+    opacity: .7;
+  }
+
+  & > span:last-child { 
+    margin-right: 0;
   }
 `;

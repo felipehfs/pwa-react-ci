@@ -1,6 +1,7 @@
 import React from "react";
 import { CustomImage } from '../../../components/structure/CustomImage';
 import { Catalog, Content, Details, Rating } from './PreviewCard.styles';
+import {RiStarFill} from 'react-icons/ri';
 
 export default function PreviewCard({
   stars,
@@ -19,6 +20,7 @@ export default function PreviewCard({
               <h4>{projects} projects</h4>
             </Details>
             <Rating>
+              <span><RiStarFill /> </span>
               {stars}
             </Rating>
           </Content>
