@@ -9,7 +9,13 @@ export const Header = styled.header`
   align-items: center;
 
 
-  p {
+  a {
      color: var(--gray);
+     text-decoration: none;
+     cursor: pointer;
    }
+
+  a:active {
+    opacity: .7;
+  }
 `;

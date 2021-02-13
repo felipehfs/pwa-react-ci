@@ -9,7 +9,7 @@ export default function NewArtist({
     <Wrapper>
       <Header>
         <h3>New Artists</h3>
-        <p>View all</p>
+        <a>View all</a>
       </Header>
       <CustomSlider items={items}/>
     </Wrapper>
