@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   margin-top: 1rem;
   padding: 1rem;
   border-top-left-radius: 20px;
-  box-shadow: 7px 0 14px rgba(0, 0, 0, .5);
+  box-shadow: 7px 0 14px rgba(0, 0, 0, 0.5);
   flex: 1;
 `;
 
@@ -16,11 +16,10 @@ Header.Details = styled.div``;
 export const Content = styled.main``;
 export const Article = styled.article`
   margin-top: 1em;
-  
   p {
     color: #000932;
     line-height: 24 px;
-    font-size: .9em;
+    font-size: 0.9em;
     text-align: justify;
   }
 `;

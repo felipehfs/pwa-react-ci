@@ -9,4 +9,9 @@ export const CustomButton = styled.button`
   align-items:center;
   justify-content: center;
   font-size: 1.4em;
+  outline: none;
+
+  &:active {
+    opacity: .7;
+  }
 `

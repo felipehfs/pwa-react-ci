@@ -2,6 +2,7 @@ import React from "react";
 import { CustomImage } from '../../../components/structure/CustomImage';
 import { Catalog, Content, Details, Rating } from './PreviewCard.styles';
 import {RiStarFill} from 'react-icons/ri';
+import { useHistory } from "react-router-dom";
 
 export default function PreviewCard({
   stars,
@@ -9,10 +10,14 @@ export default function PreviewCard({
   author,
   cover,
 }) {
+  const history = useHistory();
+
   return (
       <Catalog>
           <figure>
-            <CustomImage src={cover} alt="Pop art" />
+            <CustomImage 
+              onClick={() => history.push('/artists')}
+              src={cover} alt="Pop art" />
           </figure>
           <Content>
             <Details>
