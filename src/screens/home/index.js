@@ -6,6 +6,7 @@ import PopArt from "../../assets/images/abstract-1264071_640.png";
 import { useTabs } from "../../hooks/useTabs";
 import NewArtist from "../../containers/NewArtist";
 import { RiFileCopyLine, RiSearch2Line, RiUser3Line } from "react-icons/ri";
+import { useHistory } from "react-router-dom";
 
 const tabNames = ["Pop arts", "Geometric", "Nature"];
 
@@ -19,6 +20,9 @@ const newArtists = [
 
 export default function Home() {
   const categoriesTab = useTabs();
+  const history = useHistory();
+
+  const redirectToArtists = () => history.push('/artists')
 
   return (
     <Wrapper>
@@ -36,6 +40,7 @@ export default function Home() {
             projects="45"
             author="Jeremy Booth"
             stars="4.95"
+            onClickCover={redirectToArtists}
           />
           <NewArtist items={newArtists} />
           <div style={{ height: "120px" }}></div>

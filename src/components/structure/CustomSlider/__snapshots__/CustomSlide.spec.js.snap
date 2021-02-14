@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#CustomSlide should the ui be the same 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ dHswJY"
+  >
+    <img
+      class="sc-gsTCUz bxBdaH"
+      src="https://randomuser.me/api/portraits/women/73.jpg"
+    />
+    <img
+      class="sc-gsTCUz bxBdaH"
+      src="https://randomuser.me/api/portraits/women/12.jpg"
+    />
+    <img
+      class="sc-gsTCUz bxBdaH"
+      src="https://randomuser.me/api/portraits/men/39.jpg"
+    />
+    <img
+      class="sc-gsTCUz bxBdaH"
+      src="https://randomuser.me/api/portraits/women/66.jpg"
+    />
+    <img
+      class="sc-gsTCUz bxBdaH"
+      src="https://randomuser.me/api/portraits/women/55.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;
