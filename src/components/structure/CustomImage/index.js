@@ -5,4 +5,5 @@ export const CustomImage = styled.img`
   height: auto;
   border-radius: 14px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .7);
+  background-size: cover;
 `

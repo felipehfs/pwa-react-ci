@@ -43,6 +43,12 @@ export const Thumbnail = styled.section`
   & > figure {
     flex: 1;
   }
+
+  @media (min-width: 1024px) {
+    & > figure {
+      flex: 1;
+    }
+  }
 `;
 
 Thumbnail.Content = styled.main`
@@ -62,6 +68,10 @@ Thumbnail.Content = styled.main`
   & > span {
     color: var(--gray);
     font-weight: 200;
+  }
+
+  @media(min-width: 1024px) {
+    flex: 3;
   }
 `;
 

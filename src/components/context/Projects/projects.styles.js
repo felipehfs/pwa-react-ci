@@ -8,6 +8,10 @@ export const Wrapper = styled.div`
   border-top-left-radius: 20px;
   box-shadow: 7px 0 14px rgba(0, 0, 0, 0.5);
   flex: 1;
+
+  @media(min-width: 1024px) {
+    margin-bottom:  56px;
+  }
 `;
 
 export const Header = styled.header``;
